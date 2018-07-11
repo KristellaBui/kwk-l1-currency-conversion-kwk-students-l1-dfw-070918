@@ -8,7 +8,7 @@ def eur_to_usd
 end 
 
 def usd_to_jpn
-  new_currency = amount * 111.22
+  new_currency = amount * 111.24
 end
 
 def usd_to_gbp
