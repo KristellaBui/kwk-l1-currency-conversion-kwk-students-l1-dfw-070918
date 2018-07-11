@@ -13,3 +13,7 @@ end
 
 def usd_to_gbp
   new_currency = amount - 0.75
+end
+
+def usd_to_aud
+  new_currency = amount 
