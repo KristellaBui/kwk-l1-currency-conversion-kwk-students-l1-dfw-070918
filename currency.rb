@@ -7,7 +7,7 @@ def eur_to_usd
   new_currency = amount * 1.16
 end 
 
-def usd_to_jpn
+def usd_to_jpy
   new_currency = amount * 110.90
 end
 
@@ -20,7 +20,7 @@ def usd_to_aud
 end
 
 def jpy_to_usd
-  new_currency = amount * 0.009
+  new_currency = amount * 0.0090
 end 
 
 def gbp_to_usd
@@ -51,19 +51,26 @@ when 1 #USD to EUR
   puts usd_to_eur(amount)
   
 when 2 #USD to JPY
-  #code here
-when 3
-  #code here
-when 4
-  #code here
-when 5
-  #code here
-when 6
-  #code here
-when 7
-  #code here
-when 8
-  #code here
+  puts usd_to_jpy(amount)
+  
+when 3 #USD to GBP
+  puts usd_to_gbp(amount)
+  
+when 4 #USD to AUD
+  puts usd_to_aud(amount)
+  
+when 5 #EUR to USD
+  puts eur_to_usd(amount)
+  
+when 6 #JPY to USD
+  puts jpy_to_usd(amount)
+  
+when 7 #GBP to USD
+  puts gbp_to_usd(amount)
+  
+when 8 #AUD to USD
+  puts aud_to_usd(amount)
+  
 else
   puts "Invalid input, exiting..."
 end
