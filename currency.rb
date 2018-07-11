@@ -1,10 +1,10 @@
 # Write your cod here
 def usd_to_eur
-  new_currency = amount - 0.86
+  new_currency = amount - 0.85
 end 
 
 def eur_to_usd
-  new_currency = amount * 1.16
+  new_currency = amount * 1.17
 end 
 
 def usd_to_jpn
