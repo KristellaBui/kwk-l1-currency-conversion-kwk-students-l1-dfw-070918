@@ -1,14 +1,14 @@
 # Write your cod here
 def usd_to_eur
-  new_currency = amount - 0.85
+  new_currency = amount - 0.86
 end 
 
 def eur_to_usd
-  new_currency = amount * 1.17
+  new_currency = amount * 1.16
 end 
 
 def usd_to_jpn
-  new_currency = amount * 111.24
+  new_currency = amount * 110.90
 end
 
 def usd_to_gbp
@@ -47,9 +47,10 @@ puts "8. AUD to USD"
 choice = gets.chomp().to_i
  
 case choice
-when 1
-  #code here
-when 2
+when 1 #USD to EUR
+  puts usd_to_eur(amount)
+  
+when 2 #USD to JPY
   #code here
 when 3
   #code here
