@@ -12,4 +12,4 @@ def usd_to_jpn
 end
 
 def usd_to_gbp
-  new_currency = amount 
+  new_currency = amount - 0.75
