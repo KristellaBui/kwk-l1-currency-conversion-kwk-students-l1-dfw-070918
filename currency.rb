@@ -28,4 +28,5 @@ def gbp_to_usd
 end
 
 def aud_to_usd
-  new_currency = amount *
+  new_currency = amount - 0.74
+end
