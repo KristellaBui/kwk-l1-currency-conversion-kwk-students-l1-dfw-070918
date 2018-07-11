@@ -16,4 +16,8 @@ def usd_to_gbp
 end
 
 def usd_to_aud
-  new_currency = amount 
+  new_currency = amount * 1.35
+end
+
+def jpy_to_usd
+  new_currency = 
